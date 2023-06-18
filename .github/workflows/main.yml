@@ -14,4 +14,4 @@ jobs:
     - name: permission
       run: chmod g+x sample.py
     - name: pythonscript
-      run: ./sample.py
+      run: python3 sample.py
