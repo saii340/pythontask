@@ -19,7 +19,7 @@ jobs:
 #       run: cp sample.py pyhton
 #     - name: chaning
 #       run: cd python
-#     - name: permission
-#       run: chmod +x sample.py
+    - name: permission
+      run: chmod +x sample.py
     - name: pythonscript
-      run: python sample.py
+      run: python3 sample.py
