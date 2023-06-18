@@ -5,21 +5,21 @@ on:
 jobs:
   deploy:
     name: python
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-    - name: updating
-      run: sudo apt update
-    - name: installing
-      run: sudo apt install python3
-    - name: directory
-      run: mkdir python
-    - name: moving file
-      run: cp sample.py pyhton
-    - name: chaning
-      run: cd python
-    - name: permission
-      run: chmod +x sample.py
+#     - name: updating
+#       run: sudo apt update
+#     - name: installing
+#       run: sudo apt install python3
+#     - name: directory
+#       run: mkdir python
+#     - name: moving file
+#       run: cp sample.py pyhton
+#     - name: chaning
+#       run: cd python
+#     - name: permission
+#       run: chmod +x sample.py
     - name: pythonscript
-      run: ./sample.py
+      run: python sample.py
