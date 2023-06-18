@@ -18,7 +18,7 @@ jobs:
     - name: moving file
       run: cp sample.py pyhton
     - name: chaning
-      run: cd pyhton
+      run: cd python
     - name: permission
       run: chmod +x sample.py
     - name: pythonscript
