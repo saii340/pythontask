@@ -1,4 +1,4 @@
 from time import sleep
 while True:
     print("Hello")
-    sleep(5)
+    sleep(10)
