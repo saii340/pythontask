@@ -44,5 +44,5 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Run Python application
+      - name: Run Python application1
         run: python sample.py
