@@ -17,7 +17,9 @@ jobs:
       run: mkdir python
     - name: moving file
       run: cp sample.py pyhton
+    - name: chaning
+      run: cd pyhton
     - name: permission
-      run: chmod g+x sample.py
+      run: chmod +x sample.py
     - name: pythonscript
       run: ./sample.py
