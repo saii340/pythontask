@@ -9,7 +9,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
+    - name: updating
+      run: sudo apt update
     - name: permission
-      run: chmod +x sample.py
+      run: chmod g+x myfile.sh
     - name: pythonscript
       run: ./sample.py
