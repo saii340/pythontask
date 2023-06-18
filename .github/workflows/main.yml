@@ -1,0 +1,13 @@
+name: Feature-based Branching and Deployment
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  deploy:
+    name: python
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: pythonscript
+      run: ./sample.py
