@@ -12,6 +12,6 @@ jobs:
     - name: updating
       run: sudo apt update
     - name: permission
-      run: chmod g+x myfile.sh
+      run: chmod g+x sample.py
     - name: pythonscript
       run: ./sample.py
