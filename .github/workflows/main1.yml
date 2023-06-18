@@ -1,0 +1,21 @@
+name: Feature-based Branching and Deployment
+on: 
+  push:
+    branches:
+      - feature
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Run Python application
+        run: python sample.py
