@@ -9,16 +9,16 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-#     - name: updating
-#       run: sudo apt update
-#     - name: installing
-#       run: sudo apt install python3
-#     - name: directory
-#       run: mkdir python
-#     - name: moving file
-#       run: cp sample.py pyhton
-#     - name: chaning
-#       run: cd python
+    - name: updating
+      run: sudo apt update
+    - name: installing
+      run: sudo apt install python3
+    - name: directory
+      run: mkdir python
+    - name: moving file
+      run: cp sample.py pyhton
+    - name: chaning
+      run: cd python
     - name: permission
       run: chmod +x sample.py
     - name: pythonscript
